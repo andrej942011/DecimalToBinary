@@ -1,0 +1,24 @@
+int[] arrBoolean = new int[5];
+            uint value = 25; 25; 00011001вводимое знач
+            uint mask = 1;
+
+            for (int i = arrBoolean.Length - 1; i = 0; i--)
+            {
+                var t = value & mask;
+                if ((value & mask) == mask)
+                {
+                    arrBoolean[i] = 1;
+                }
+                else
+                    arrBoolean[i] = 0;
+
+                побитовый сдивг
+                mask = mask  1;
+                Console.WriteLine(mask);
+            }
+
+            for (int i = 0; i  arrBoolean.Length; i++)
+            {
+                Console.Write(arrBoolean[i]);
+            }
+            Console.ReadKey();
